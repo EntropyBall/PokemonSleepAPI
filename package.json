@@ -1,0 +1,27 @@
+{
+    "name": "pokemonsleepapi",
+    "version": "1.0.0",
+    "description": "Pokémon Sleep API allows you to get all the recipes, ingredients and berries from the game, including images.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/EntropyBall/PokemonSleepAPI.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/EntropyBall/PokemonSleepAPI/issues"
+    },
+    "homepage": "https://github.com/EntropyBall/PokemonSleepAPI#readme",
+    "dependencies": {
+        "axios": "^1.5.1",
+        "cheerio": "^1.0.0-rc.12",
+        "cors": "^2.8.5",
+        "express": "^4.18.2"
+    }
+}
